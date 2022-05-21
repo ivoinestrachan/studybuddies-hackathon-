@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.app {
+  color: #fff;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.app_view {
+  width: 100%;
+}

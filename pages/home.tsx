@@ -1,10 +1,15 @@
 import DashboardHome from "../components/dashboardhome";
+import styles from "../styles/home.module.css";
 
 const home = () => {
   return (
-    <div>
+    <div className={styles.container}>
     <DashboardHome />
+    <div className={styles.app}>
+       Home
+       </div>
     </div>
+  
   );
 }
 

@@ -8,7 +8,7 @@ const discover = () => {
     <div className={styles.container}>
       <Dashboard />
       <div className={styles.app}>
-
+        Discover
       </div>
     </div>
   );
