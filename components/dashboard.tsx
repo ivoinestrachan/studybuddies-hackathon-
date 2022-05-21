@@ -9,6 +9,7 @@ import home from "../assets/home.svg"
 import Link from 'next/link';
 
 const Dashboard: NextPage  = () => {
+  
   return (
     <div className={styles.container}>
       <div className={styles.sidebar}>

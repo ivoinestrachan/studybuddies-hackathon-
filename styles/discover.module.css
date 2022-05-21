@@ -12,3 +12,25 @@
 .app_view {
   width: 100%;
 }
+
+.swipeContainer{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.swipeleft:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.swiperight:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card{
+  margin-left: 50px;
+  margin-right: 50px;
+}

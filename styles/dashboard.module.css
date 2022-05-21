@@ -83,6 +83,12 @@
   color: #fff;
 }
 
+.linkItemWrapper:active{
+  background-color: #1F1F1F;
+  border-left: 22px solid #661AFF;
+  width: 100%;
+  align-items: center;
+}
 
 .linkItemWrapper:hover{
   background-color: #1F1F1F;

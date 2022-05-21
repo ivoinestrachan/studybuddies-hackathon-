@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
 .container {
   display: flex;
 }
@@ -12,3 +14,32 @@
 .app_view {
   width: 100%;
 }
+
+.TaskContainer{
+  width: 80%;
+  margin-left: 112px;
+  margin-top: 102px;
+}
+
+.TasktitleCon{
+  display: flex;
+  font-size: 22px;
+  font-family: 'Circular Std', sans-serif;  
+  align-items: center;
+}
+.friend{
+  margin-left: 350px;
+}
+
+
+.checkbox{
+  margin-left: 100px;
+  color: #6B6B6B;
+  outline: #6B6B6B;
+}
+
+.check{
+  margin-left: 5px;
+  color: #6B6B6B;
+}
+
