@@ -5,16 +5,26 @@ import logo from "../assets/logo.svg"
 import discover from "../assets/discover.svg"
 import directbox from "../assets/directbox-notif.svg"
 import settings from "../assets/setting.svg"
+import home from "../assets/home.svg"
 import Link from 'next/link';
 
 const Dashboard: NextPage  = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.sidebar}>
       <div className={styles.headerImg}>
-      <Image src={logo} className={styles.logo} alt="logo"/>
+      <Image src={logo} className={styles.logo} alt="logo"
+      />
+      <span className={styles.logoName}>StudyBuddies</span>
         </div> 
         <div className={styles.navigation}>
         <div className={styles.navWrapper}>
+        <Link href="/" >
+              <div className={styles.linkItemWrapper}>
+              <Image src={home}  alt="Home"/>
+                <span className={styles.linkTxt}>Home</span>
+              </div>
+            </Link>
         <Link href="/" >
               <div className={styles.linkItemWrapper}>
               <Image src={discover}  alt="discover"/>
@@ -33,6 +43,12 @@ const Dashboard: NextPage  = () => {
                 <span className={styles.linkTxt}>Settings</span>
               </div>
             </Link>
+            </div>
+          </div>
+          <div className={styles.bottomWrapper}>
+            <div className={styles.bottomItem}>
+          StudyBuddies v1.0 (Beta)
+          </div>
           </div>
           </div>
     </div>
