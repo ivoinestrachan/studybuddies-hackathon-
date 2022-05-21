@@ -3,7 +3,7 @@
                 
 
 .container {
-  height: 100vh;
+  height: auto;
   width: 325px;
   padding-right: 1rem;
   background-color: #1A1A1A;
@@ -24,6 +24,7 @@
   font-family: 'Circular Std', sans-serif;  
   padding-left: 1rem; 
   border-top: 2px solid #1F1F1F;
+  align-items: center;
 }
 
 .bottomItem{
@@ -89,9 +90,22 @@
   width: 100%;
   align-items: center;
 }
+.bottomItemLogOut{
+  color: #FF0055;
+  font-size: 19px;
+  font-family: 'Circular Std', sans-serif;  
+  padding-top: 10px;
+  cursor: pointer; 
+  align-items: center;
+  display: flex;
+}
+.span{
+  margin: 10px;
+}
 
 @media only screen and (max-width: 600px) {
   .bottomWrapper{
     margin-top: 22rem;
  }
 }
+
