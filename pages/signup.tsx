@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import styles from "../styles/login.module.css"
+import styles from "../styles/signup.module.css"
 import Image from 'next/image';
 import logo from "../assets/logo.svg"
 
@@ -11,14 +11,19 @@ function Login(): JSX.Element {
             </div>
             <div className={styles.box}>
                 <h1>Study Buddy</h1>
-                <h1>Login</h1>
+                <h1>Sign Up</h1>
+                <h3 className={styles.input_text}>Name</h3>
+                <input placeholder="Name"></input>
                 <h3 className={styles.input_text}>Username</h3>
-                <input placeholder="Username" className={styles.input}></input>
+                <input placeholder="Username"></input>
                 <h3 className={styles.input_text}>Password</h3>
-                <input placeholder="Password" className={styles.input}></input>
+                <input placeholder="Password"></input>
+                <h3 className={styles.input_text}>Enter Password Again</h3>
+                <input placeholder="Password"></input>
                 <br/>
-                <button className={styles.button}>Login</button>
                 <button className={styles.button}>Sign Up</button>
+                <br/>
+                <a href="login.tsx">Login</a>
             </div>
         </div>
     );

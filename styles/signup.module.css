@@ -3,7 +3,7 @@
     font-family: 'Circular Std', sans-serif;    
     align-items: center;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 1rem;
 }
 
 .button {
@@ -30,5 +30,5 @@
 }
 
 .input_text {
-    margin-right: 4rem;
+    
 }
