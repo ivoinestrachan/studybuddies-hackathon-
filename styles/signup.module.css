@@ -1,34 +1,121 @@
-.box {
-    color: white;
-    font-family: 'Circular Std', sans-serif;    
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
-}
+@import url('http://fonts.cdnfonts.com/css/circular-std');
 
-.button {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 2px;
+.container{
     justify-content: center;
+    align-items: center;
 }
 
-.headerImg{
-    height: 10vh;
-    width: 325px;
+.h1{
+    padding-top: 50px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Circular Std', sans-serif;  
+    margin-right: 120px;
+    padding-bottom: 30px;
+}
+.form{
+    margin-top: 8rem;
+   background-color: #1A1A1A; 
+   justify-content: center;
+   text-align: center;
+   border-radius: 20px;
+   margin-left: 430px;
+   margin-right: 430px;
+   align-items: center;
+   height: 520px;
+}
+.inputWrapper{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.logo{
+.input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Circular Std', sans-serif;  
+    color: #FFFFFF;
+    
+}
+
+.border{
+    border: 2px solid #252525;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    align-items: center;
+    width: 350px;
+}
+.spanLogin{
+    margin-right: 10px;
+    align-items: center;
+}
+.forget{
+    color: #AA80FF;
+    font-size: 18px;
+    font-family: 'Circular Std', sans-serif;  
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.forget:hover{
+    opacity: 0.8;
+}
+.loginbutton{
+    border: none;
+    border-radius: 12px;
+    background: #884DFF 40%;
+    color: #DDCCFF;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Circular Std', sans-serif; 
     cursor: pointer;
 }
 
-.input_text {
-    
+.googlebuttonWrap{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.googlebutton{
+    background: #262626;
+    color: #FFFFFF;
+    border: none;
+    align-items: center;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Circular Std', sans-serif; 
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.google{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .form{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .loginbutton{
+        width: 300px;
+    }
+    .border{
+        width: 300px;
+    }
+  }

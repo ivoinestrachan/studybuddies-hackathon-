@@ -1,27 +1,36 @@
-import type { NextPage } from 'next'
 import styles from "../styles/login.module.css"
-import Image from 'next/image';
-import logo from "../assets/logo.svg"
+import email from "../assets/email.svg";
+import key from "../assets/key.svg";
+import google from "../assets/google.svg";
+import Image from "next/image";
 
-function Login(): JSX.Element {
+const login = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.headerImg}>
-                <Image src={logo} className={styles.logo} alt="logo" />
+            <div className={styles.formContainer}>
+                <form className={styles.form}>
+                <div className={styles.h1}>Welcome back!</div>
+                <div className={styles.inputWrapper}>
+                    <div className={styles.border}>
+                 <span className={styles.spanLogin}><Image src={email} alt="email" /> </span>   <input type="text" placeholder="Email address"  className={styles.input}/>
+                 </div>
+                </div>
+                <div className={styles.inputWrapper}>
+                <div className={styles.border}>
+                <span className={styles.spanLogin}><Image src={key} alt="key" /> </span>   <input type="password" placeholder="Password"  className={styles.input}/>
+                </div>
+                </div>
+                <div className={styles.loginbuttonWrapper}>
+                    <button className={styles.loginbutton}>Login</button>
+                </div>
+                </form>
             </div>
-            <h1 className={styles.name}>Study Buddy</h1>
-            <div className={styles.box}>
-                <h1 className={styles.login_text}>Login</h1>
-                <h3 className={styles.input_text}>Username</h3>
-                <input placeholder="Username" className={styles.input}></input>
-                <h3 className={styles.input_text}>Password</h3>
-                <input placeholder="Password" className={styles.input}></input>
-                <br/>
-                <button className={styles.login_button}>Login</button>
-                <a href="signup.tsx" className={styles.signup_link}>Sign Up</a>
+            <div className={styles.forget}>Shit! I forgot my password</div>
+            <div className={styles.googlebuttonWrap}>
+                <button className={styles.googlebutton}><span className={styles.google}><Image src={google} alt="google"/></span>Sign in with Google</button>
             </div>
         </div>
     );
 }
 
-export default Login
+export default login;
