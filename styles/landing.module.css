@@ -1,0 +1,93 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+.container{
+  margin-top: 200px;
+  margin-left: 70px;
+  background: url(../assets/back.svg) no-repeat right 40%;
+  background-size: 700px 600px;
+  height: 410px;
+
+padding:0px;
+padding-right:4px;
+}
+.intro{
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Circular Std', sans-serif; 
+  font-weight: bold;
+}
+.learner{
+  color: rgba(136, 77, 255, 1);
+}
+.study{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Circular Std', sans-serif; 
+  display: flex;
+  align-items: center;
+  color: rgba(255, 0, 85, 1);
+}
+
+.summary{
+  font-size: 24px;
+  margin-top: 50px;
+  font-family: 'Circular Std', sans-serif; 
+  color: #808080;
+}
+
+.buttonContainer{
+  margin-top: 50px;
+  display: flex;
+  font-family: 'Circular Std', sans-serif; 
+}
+
+.button{
+  font-family: 'Circular Std', sans-serif; 
+  margin-right: 10px;
+  border-radius: 12px;
+  background: #884DFF;
+  color: #FFFFFF;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 220px;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+}
+
+.button2{
+  font-family: 'Circular Std', sans-serif; 
+  font-size: 24px;
+  border: none;
+  margin-left: 40px;
+  border-radius: 12px;
+  background: transparent;
+  color: #FFFFFF;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 220px;
+  cursor: pointer;
+  display: flex;
+}
+.arrow{
+  margin-left: 15px;
+}
+.arrow2{
+  margin-right: 20px;
+}
+
+
+
+.button:hover{
+opacity: 0.8;
+}
+
+.button2:hover{
+ opacity: 0.8;
+  }
+.imageContainer{
+  display: flex;
+}

@@ -1,32 +1,57 @@
-import type { NextPage } from 'next'
 import styles from "../styles/signup.module.css"
-import Image from 'next/image';
-import logo from "../assets/logo.svg"
+import Image from "next/image";
+import email from "../assets/email.svg";
+import key from "../assets/key.svg";
+import google from "../assets/google.svg";
+import user from "../assets/user.svg";
+import Link from "next/link";
+import NavbarSignUp from "../components/NavbarSignUp";
 
-function Login(): JSX.Element {
+const signup = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.headerImg}>
-                <Image src={logo} className={styles.logo} alt="logo" />
+            <NavbarSignUp />
+        <div className={styles.formContainer}>
+            <form className={styles.form}>
+            <div className={styles.h1}>Let’s get started!</div>
+            <div className={styles.inputWrapper}>
+                <div className={styles.border}>
+             <span className={styles.spanLogin}><Image src={user} alt="name" /> </span>   <input type="text" placeholder="Name"  className={styles.input}/>
+             </div>
             </div>
-            <div className={styles.box}>
-                <h1>Study Buddy</h1>
-                <h1>Sign Up</h1>
-                <h3 className={styles.input_text}>Name</h3>
-                <input placeholder="Name"></input>
-                <h3 className={styles.input_text}>Username</h3>
-                <input placeholder="Username"></input>
-                <h3 className={styles.input_text}>Password</h3>
-                <input placeholder="Password"></input>
-                <h3 className={styles.input_text}>Enter Password Again</h3>
-                <input placeholder="Password"></input>
-                <br/>
-                <button className={styles.button}>Sign Up</button>
-                <br/>
-                <a href="login.tsx">Login</a>
+            <div className={styles.inputWrapper}>
+                <div className={styles.border}>
+             <span className={styles.spanLogin}><Image src={email} alt="email" /> </span>   <input type="text" placeholder="Email address"  className={styles.input}/>
+             </div>
             </div>
+            <div className={styles.inputWrapper}>
+            <div className={styles.border}>
+            <span className={styles.spanLogin}><Image src={key} alt="key" /> </span>   <input type="password" placeholder="Password"  className={styles.input}/>
+            </div>
+            </div>
+
+            <div className={styles.inputWrapper}>
+            <div className={styles.border}>
+            <span className={styles.spanLogin}><Image src={key} alt="confirm" /> </span>   <input type="password" placeholder="Comfirm password"  className={styles.input}/>
+            </div>
+            </div>
+            <div className={styles.loginbuttonWrapper}>
+                <button className={styles.loginbutton}>Sign Up</button>
+            </div>
+            </form>
         </div>
+       
+        <div className={styles.forget}>
+            <Link href="/login">
+            Already have an account
+            </Link>
+            </div>
+        
+        <div className={styles.googlebuttonWrap}>
+            <button className={styles.googlebutton}><span className={styles.google}><Image src={google} alt="google"/></span>Sign in with Google</button>
+        </div>
+    </div>
     );
 }
 
-export default Login
+export default signup;

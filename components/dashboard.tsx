@@ -22,25 +22,25 @@ const Dashboard: NextPage  = () => {
         <div className={styles.navWrapper}>
         <Link href="/home" >
               <div className={styles.linkItemWrapper}>
-              <Image src={home}  alt="Home"/>
+              <Image src={home} className={styles.navIcon}  alt="Home"/>
                 <span className={styles.linkTxt}>Home</span>
               </div>
             </Link>
         <Link href="/discover" >
               <div className={styles.linkItemWrapper}>
-              <Image src={discover}  alt="discover"/>
+              <Image src={discover} className={styles.navIcon}  alt="discover"/>
                 <span className={styles.linkTxt}>Discover</span>
               </div>
             </Link>
             <Link href="/direct-message" >
               <div className={styles.linkItemWrapper}>
-              <Image src={directbox}  alt="direct"/>
+              <Image src={directbox} className={styles.navIcon}  alt="direct"/>
                 <span className={styles.linkTxt}>Message</span>
               </div>
             </Link>
             <Link href="/settings" >
               <div className={styles.linkItemWrapper}>
-              <Image src={settings}  alt="setting"/>
+              <Image src={settings} className={styles.navIcon}  alt="setting"/>
                 <span className={styles.linkTxt}>Settings</span>
               </div>
             </Link>
