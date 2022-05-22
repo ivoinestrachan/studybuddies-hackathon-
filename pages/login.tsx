@@ -9,9 +9,16 @@ function Login(): JSX.Element {
             <div className={styles.headerImg}>
                 <Image src={logo} className={styles.logo} alt="logo" />
             </div>
+            <h1 className={styles.name}>Study Buddy</h1>
             <div className={styles.box}>
-                <button className={styles.button}>Login</button>
-                <button className={styles.button}>Sign Up</button>
+                <h1 className={styles.login_text}>Login</h1>
+                <h3 className={styles.input_text}>Username</h3>
+                <input placeholder="Username" className={styles.input}></input>
+                <h3 className={styles.input_text}>Password</h3>
+                <input placeholder="Password" className={styles.input}></input>
+                <br/>
+                <button className={styles.login_button}>Login</button>
+                <a href="signup.tsx" className={styles.signup_link}>Sign Up</a>
             </div>
         </div>
     );

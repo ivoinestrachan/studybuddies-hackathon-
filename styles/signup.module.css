@@ -3,23 +3,10 @@
     font-family: 'Circular Std', sans-serif;    
     align-items: center;
     text-align: center;
-    background-color: white;
-    margin-right: 30rem;
-    margin-left: 30rem;
+    margin-top: 1rem;
 }
 
-.name {
-    color: black;
-    text-align: center;
-    margin-top: 6rem;
-}
-
-.login_text {
-    margin-top: 4rem;
-    color: black;
-}
-
-.login_button {
+.button {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -29,9 +16,8 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    border-radius: 5rem;
+    border-radius: 2px;
     justify-content: center;
-    margin-top: 1rem;
 }
 
 .headerImg{
@@ -44,9 +30,5 @@
 }
 
 .input_text {
-    margin-right: 4rem;
-}
-
-.signup_link {
-    color: black;
+    
 }
