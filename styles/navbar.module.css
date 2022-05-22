@@ -106,5 +106,11 @@
 }
 
 .button:hover{
-  opacity: 0.8;
+  opacity: 0.5;
+}
+.button2:hover{
+  opacity: 0.5;
+}
+.button3:hover{
+  opacity: 0.5;
 }

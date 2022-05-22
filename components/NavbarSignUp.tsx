@@ -14,7 +14,9 @@ const NavbarLogin = () => {
             </Link>
           </div>
           <div className={styles.logo}>
+          <Link href="/">
           StudyBuddies
+          </Link> 
             </div>
        </div>
             <div className={styles.buttonWrapper}>

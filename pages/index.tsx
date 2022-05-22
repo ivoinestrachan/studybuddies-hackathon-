@@ -5,6 +5,7 @@ import Image from 'next/image'
 import arrow from "../assets/arrow.svg"
 import circle from "../assets/play-circle.svg"
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.intro}>
       
-      A space for <span className={styles.learner}>Learner</span> <br></br>
+      A space for <span className={styles.learner}>Learners</span> <br></br>
 to find their unique
 
       </div>
@@ -27,9 +28,12 @@ to find their unique
       </div>
       <div className={styles.buttonContainer}>
         <div className={styles.buttonWrapper}>
+        <Link href="/signup">
      <button className={styles.button}>Get started <span className={styles.arrow}><Image src={arrow} alt="arrow" className={styles.arrow}/></span> </button>
+     </Link>
         </div>
         <div className={styles.buttonWrapper2}>
+         
           <button className={styles.button2}><span className={styles.arrow2}><Image src={circle} alt="circle" className={styles.arrow}/></span>Watch video</button>
         </div>
 
