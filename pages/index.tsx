@@ -22,9 +22,8 @@ to find their unique
      <Image src={nerd} alt="nerd"/> Study Buddies 
       </div>
       <div className={styles.summary}>
-      Ornare vestibulum netus porta elit risus, risus <br>
-      </br>varius felis enim. Odio enim et, donec gravida<br>
-      </br> massa vulputate.
+      StudyBuddies –An online platform which <br></br>enables us to view and select peers who share <br></br>quite the same subjects of study,
+       <br></br>and have similar interests.
       </div>
       <div className={styles.buttonContainer}>
         <div className={styles.buttonWrapper}>
