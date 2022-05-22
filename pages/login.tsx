@@ -3,11 +3,13 @@ import email from "../assets/email.svg";
 import key from "../assets/key.svg";
 import google from "../assets/google.svg";
 import Image from "next/image";
+import NavbarLogin from "../components/NavbarLogin";
 
 const login = () => {
 
     return (
         <div className={styles.container}>
+            <NavbarLogin />
             <div className={styles.formContainer}>
                 <form className={styles.form}>
                 <div className={styles.h1}>Welcome back!</div>

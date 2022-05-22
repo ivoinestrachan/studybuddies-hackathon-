@@ -14,6 +14,9 @@ const Navbar = () => {
             <Image src={logo} className={styles.logo} alt="logo" />
             </Link>
           </div>
+          <div className={styles.logo}>
+          StudyBuddies
+            </div>
        </div>
        <div className={styles.linkContainer}>
           <div className={styles.linkHolder}>
@@ -33,7 +36,9 @@ const Navbar = () => {
               </div>
             </Link>
             <div className={styles.buttonWrapper}>
+              <Link href="/login" className={styles.button}>
             <button className={styles.button}><span className={styles.spanLogin}><Image src={user} alt="name" /></span> Login</button>
+              </Link>
             </div>
           </div>
           </div>

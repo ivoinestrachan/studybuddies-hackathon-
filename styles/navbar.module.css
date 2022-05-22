@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
 .container {
   background: transparent;
   z-index: 999;
@@ -20,8 +22,8 @@
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 2rem;
+  font-family: 'Circular Std', sans-serif; 
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -35,6 +37,7 @@
   color: #fff;
   margin-left: 1.3rem;
   align-items: center;
+  cursor: pointer;
 }
 
 .links:hover {
@@ -56,8 +59,8 @@
 .button{
   cursor: pointer;
   border: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   border: none;
   background: #884DFF;
   color: #fff;
@@ -68,4 +71,40 @@
   display: flex;
   text-align: center;
   justify-content: center;
+}
+.button2{
+  cursor: pointer;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  background: #FFFFFF;
+  color: #884CFF;
+  border-radius: 12px;
+  width: 200px;
+  align-items: center;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.button3{
+  cursor: pointer;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  background: #FFFFFF;
+  color: #884CFF;
+  border-radius: 12px;
+  width: 140px;
+  align-items: center;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.button:hover{
+  opacity: 0.8;
 }

@@ -5,10 +5,12 @@ import key from "../assets/key.svg";
 import google from "../assets/google.svg";
 import user from "../assets/user.svg";
 import Link from "next/link";
+import NavbarSignUp from "../components/NavbarSignUp";
 
 const signup = () => {
     return (
         <div className={styles.container}>
+            <NavbarSignUp />
         <div className={styles.formContainer}>
             <form className={styles.form}>
             <div className={styles.h1}>Let’s get started!</div>
