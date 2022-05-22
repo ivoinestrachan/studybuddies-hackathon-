@@ -1,0 +1,71 @@
+.container {
+  background: transparent;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  
+}
+
+.links {
+  color: #fff;
+  margin-left: 1.3rem;
+  align-items: center;
+}
+
+.links:hover {
+  color: black;
+}
+
+.linkHolder{
+  display: flex;
+  align-items: center;
+}
+
+.buttonWrapper{
+  display: flex;
+  align-items: center;
+  margin-left: 1.3rem;
+  margin-top: 15px;
+}
+
+.button{
+  cursor: pointer;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  background: #884DFF;
+  color: #fff;
+  border-radius: 12px;
+  width: 120px;
+  align-items: center;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

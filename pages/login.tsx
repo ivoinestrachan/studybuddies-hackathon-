@@ -5,6 +5,7 @@ import google from "../assets/google.svg";
 import Image from "next/image";
 
 const login = () => {
+
     return (
         <div className={styles.container}>
             <div className={styles.formContainer}>
